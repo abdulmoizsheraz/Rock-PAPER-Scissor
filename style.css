@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  .nav{
+      background-color: rgb(241, 57, 57);
+      
+      height: 10vh;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .head{
+      color: rgb(240, 98, 98);
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size:2vw;
+      color: rgb(75, 71, 71);
+  }
+  .head1{
+      color: rgb(240, 98, 98);
+      font-family: 'Bebas Neue', cursive;
+      font-size:5vw;
+      text-align: center;
+      color: rgb(75, 71, 71);
+  }
+  .container{
+      margin-top: 60px;
+    
+      width: 99vw;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+  }
+  .container1{
+      height: 230px;
+      width: 500px;
+      border: 3px solid red;
+      border-radius: 12px;
+      margin: 23px 23px;
+  }
+  .container2{
+      height:230px;
+      width: 500px;
+      border-radius: 12px;
+      border: 3px solid red;
+      margin: 23px 23px;
+  }
+
+  .reset{
+    width: 230px;
+    margin: auto;
+  }
+  .img{
+    height: 122px;
+    cursor: pointer;
+  }
+  .AI_turn{
+   
+color: rgb(71, 71, 245);
+    font-size: 4vw;
+    font-family: emoji;
+
+  }
+  .results{
+    margin: auto;
+    width: 18vw;
+    border: 10px ;
+    border-style: solid;
+    border-radius: 23px;
+    border-color: rgb(238, 58, 58);
+    padding: 23px 34px;
+  }
+  #reset{
+    margin: 23px 34px;
+    border: 1px solid red;
+    padding: 23px 34px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+#instruction_text{
+    font-size: 21px;
+    font-weight: bolder;
+    color: rgb(221, 108, 221)
+}
+ /* Responsiveness */
+ @media screen and (max-width: 1100px) {
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .container1 {
+    height: 13vh;
+    width: 82vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img {
+    margin-left: 28px;
+    height: 68px;
+    cursor: pointer;
+}
+.container2 {
+
+    height: 18vh;
+    width: 84vw;
+}
+.verses{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+.AI_turn{
+    text-align: center;
+}
+.head{
+    font-size: 5vw;
+}
+  }
